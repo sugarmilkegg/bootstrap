@@ -1,0 +1,37 @@
+/* タブレット向けレイアウト　*/
+
+@media (max-width: 1000px) {
+  .btn {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  
+  .contents {
+      width: 50%
+  }
+}
+
+/* スマホ向けレイアウト */
+@media (max-width: 670px) {
+
+  .header-right {
+    display: none;
+  }
+  
+  .fa-angle-double-down {
+    display: block;
+  }
+
+  .btn {
+      width: 100%;
+  }
+
+  .top-wrapper p{
+      padding-top: 250px;
+      font-size: 30px;
+  }
+  .contents {
+    width: 100%;
+  }
+}
